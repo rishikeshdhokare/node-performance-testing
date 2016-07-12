@@ -1,0 +1,32 @@
+{
+  "name": "node-performance-testing",
+  "version": "1.0.0",
+  "description": "A simple way to write performance test for your node/express application.",
+  "main": "performanceTest.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://rishikeshdhokare@github.com/rishikeshdhokare/node-performance-testing.git"
+  },
+  "keywords": [
+    "nodejs",
+    "performance",
+    "testing"
+  ],
+  "author": "Rishikesh Dhokare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishikeshdhokare/node-performance-testing/issues"
+  },
+  "homepage": "https://github.com/rishikeshdhokare/node-performance-testing#readme",
+  "devDependencies": {
+    "should": "^9.0.2",
+    "loadtest": "^1.4.3",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
